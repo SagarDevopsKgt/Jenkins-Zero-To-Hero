@@ -5,13 +5,13 @@ Certainly! Here’s a **step-by-step process to set up a Jenkins controller-agen
 
 ---
 
-## **Step-by-Step Jenkins Controller-Agent Setup on AWS (All Ubuntu Servers)**
+## **Step-by-Step Jenkins Controller-Agent Setup on AWS 
 
 ---
 
-### **1. Provision AWS EC2 Instances**
+ **1. Provision AWS EC2 Instances**
 
-#### a. Jenkins Controller (Master)
+ a. Jenkins Controller (Master)
 - **AMI:** Ubuntu Server 22.04 LTS (or latest stable)
 - **Type:** t3.medium or higher
 - **Security Group:** Allow TCP 8080 (Jenkins UI), 22 (SSH) from your IP
