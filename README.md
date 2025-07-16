@@ -162,5 +162,18 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator
 
 <img width="668" height="332" alt="image" src="https://github.com/user-attachments/assets/4e138c1a-4119-420f-aa55-597002b60efd" />
 
+<img width="685" height="381" alt="image" src="https://github.com/user-attachments/assets/d738e161-c019-4501-8ec5-f3e1906822f4" />
+
+
+<img width="738" height="356" alt="image" src="https://github.com/user-attachments/assets/44477642-46cd-4688-8a35-9343b9dbbb93" />
+
+
+<img width="734" height="396" alt="image" src="https://github.com/user-attachments/assets/9a80818f-1f40-453f-9687-75a9e564811d" />
+
+
+<img width="722" height="364" alt="image" src="https://github.com/user-attachments/assets/4193c842-bf0c-473e-8fda-4cb95945380b" />
+
+
+
 
 
