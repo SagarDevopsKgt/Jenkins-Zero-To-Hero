@@ -101,6 +101,7 @@ sh
 sudo adduser jenkins
 sudo usermod -aG sudo jenkins
 
+
 ```
 
 ### b. Generate SSH Key on Controller
@@ -118,7 +119,7 @@ cat ~/.ssh/id_rsa_jenkins_agents.pub
 On each agent, as the `jenkins` user:
 ```
 
-sh
+su - jenkins
 mkdir -p ~/.ssh
 echo "<controller-public-key>" >> ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
