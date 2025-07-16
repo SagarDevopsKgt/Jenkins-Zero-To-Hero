@@ -98,16 +98,23 @@ Connect With Ec2 With Connection
 
 
 
-Install Jenkins.
 Pre-Requisites:
-
+Install Jenkins.
 Java (JDK)
 
 Run the below commands to install Java and Jenkins  
 
 Install Java
 
+
 sudo apt update
+
+Here’s what happens when you run it:
+
+sudo: Runs the command as a superuser (administrator), which is required for system-level changes.
+apt: The package management tool for installing, upgrading, and removing software packages.
+update: Tells apt to fetch the latest package lists from the repositories specified in your system’s sources list.
+
 sudo apt install openjdk-17-jre
 
 Verify Java is Installed
