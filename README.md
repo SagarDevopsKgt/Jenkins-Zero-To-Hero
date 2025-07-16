@@ -97,6 +97,7 @@ Install Jenkins.
 Pre-Requisites:
 
 Java (JDK)
+
 Run the below commands to install Java and Jenkins
 Install Java
 
@@ -105,6 +106,7 @@ sudo apt install openjdk-17-jre
 Verify Java is Installed
 
 java -version
+
 Now, you can proceed with installing Jenkins
 
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
