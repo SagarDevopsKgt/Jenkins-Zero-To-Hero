@@ -115,11 +115,19 @@ sudo: Runs the command as a superuser (administrator), which is required for sys
 apt: The package management tool for installing, upgrading, and removing software packages.
 update: Tells apt to fetch the latest package lists from the repositories specified in your system’s sources list.
 
+To Remove Older version of JDK 
+sudo apt remove openjdk-17-jdk openjdk-17-jre 
+
+Install
 sudo apt install openjdk-17-jre
+
 
 Verify Java is Installed
 
 java -version
+openjdk 17.0.15 2025-04-15
+OpenJDK Runtime Environment (build 17.0.15+6-Ubuntu-0ubuntu124.04)
+OpenJDK 64-Bit Server VM (build 17.0.15+6-Ubuntu-0ubuntu124.04, mixed mode, sharing)
 
 Now, you can proceed with installing Jenkins
 
@@ -128,7 +136,6 @@ curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
-  s
 sudo apt-get update
 sudo apt-get install jenkins
 
@@ -138,15 +145,22 @@ EC2 > Instances > Click on
 In the bottom tabs -> Click on Security
 Security groups
 Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
-Screenshot 2023-02-01 at 12 42 01 PM
 
 Login to Jenkins using the below URL:
 http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
 
-Note: If you are not interested in allowing All Traffic to your EC2 instance 1. Delete the inbound traffic rule for your instance 2. Edit the inbound traffic rule to only allow custom TCP port 8080
+Note: If you are not interested in allowing All Traffic to your EC2 instance
+1. Delete the inbound traffic rule for your instance
+2. Edit the inbound traffic rule to only allow custom TCP port 8080
 
-After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
+After you login to Jenkins, - Run the command to copy the Jenkins Admin Password -
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
-Screenshot 2023-02-01 at 10 56 25 AM
+<img width="620" height="293" alt="image" src="https://github.com/user-attachments/assets/2a12dc8c-8fb4-4ab0-8919-31d65f6536ae" />
+
+
+
+<img width="668" height="332" alt="image" src="https://github.com/user-attachments/assets/4e138c1a-4119-420f-aa55-597002b60efd" />
+
 
 
