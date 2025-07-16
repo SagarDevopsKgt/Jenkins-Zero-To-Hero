@@ -92,6 +92,11 @@ Instances(running)
 Launch instances
 <img width="611" height="379" alt="image" src="https://github.com/user-attachments/assets/3ebeaeca-1514-49fe-bb15-510b8c9fe9cf" />
 
+Connect With Ec2 With Connection
+
+<img width="916" height="270" alt="image" src="https://github.com/user-attachments/assets/bf605abf-c863-4835-ada0-3d16302a17bc" />
+
+
 
 Install Jenkins.
 Pre-Requisites:
